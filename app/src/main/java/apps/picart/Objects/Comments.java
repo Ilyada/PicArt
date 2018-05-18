@@ -6,9 +6,20 @@ package apps.picart.Objects;
 
 public class Comments {
 
-    String commenter_mail;
-    String commenter_name;
-    String comment_desc;
+    public String commenter_mail;
+    public String commenter_name;
+    public String comment_desc;
+
+
+    public Comments(){
+
+    }
+    public Comments(String name,String mail,String desc){
+
+        commenter_name=name;
+        commenter_mail=mail;
+        comment_desc=desc;
+    }
 
 
 //    COMMENTS LE UGRAS!

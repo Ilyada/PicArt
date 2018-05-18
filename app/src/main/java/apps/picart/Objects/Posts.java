@@ -17,7 +17,7 @@ import java.util.List;
 public class Posts implements Serializable{
     public String title;
     public String desc;
-    // List<Comments> comments = new ArrayList<Comments>();
+    public List<Comments> comments = new ArrayList<Comments>();
     public String imageUrl;
     public String sendermail;
     public String sendername;
